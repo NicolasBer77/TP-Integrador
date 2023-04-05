@@ -31,7 +31,11 @@ package Proyecto;
 		                int golesEquipo1 = Integer.parseInt(campos[2]);
 	                 	int golesEquipo2 = Integer.parseInt(campos[3]);
 	                 	partidos = new Partido(equipoLocal, equipoVisitante, golesEquipo1, golesEquipo2);	                 	
-	                 	System.out.println("nombre equipo local: " + partidos.equipoLocal.nombre);	                 	System.out.println("equipo local visitante: " + partidos.equipoVisitante.nombre);	                 	System.out.println("goles equipo local: " + partidos.golesEquipo1);	       	                 	System.out.println("goles equipo visitante: " + partidos.golesEquipo2);
+	                 	System.out.println("nombre equipo local: " + partidos.equipoLocal.nombre);
+	                 		                 	System.out.println("equipo local visitante: " + partidos.equipoVisitante.nombre);
+	                 		                 	System.out.println("goles equipo local: " + partidos.golesEquipo1);
+	                 		                 	System.out.println("goles equipo visitante: " + partidos.golesEquipo2);
+	                 	
 		                     }
 		         } catch (IOException e) {
 		             System.err.println("Error al leer archivo partidos: " + e.getMessage());
